@@ -14,6 +14,7 @@ class Todo(db.Model):
         self.completed = completed
 
     @classmethod
+    # diaodjoias
     def create_todo(cls,todobody,priority, completed):
         new_todo = Todo(todobody,priority, completed)
         try:
